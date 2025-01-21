@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coding bros</title>
 </head>
 <body>
+    <div class="main">
     <h1>Coding bros</h1>
     <form action='/submit' method='POST'>
-    <textarea name='code'  placeholder="Write Java code here"></textarea>
-    <input name='class_name'></input>
-    <button type="submit"></button>
+    <textarea id="codearea" name='code'  placeholder="Write Java code here"></textarea>
+    <input id="classname" name='class_name'></input>
+    <button id="buttonsubmit" type="submit">Run</button>
+    </div>
 </body>
 </html>
 

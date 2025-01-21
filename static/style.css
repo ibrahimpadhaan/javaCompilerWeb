@@ -1,1 +1,16 @@
-
+.main {
+    display: flex;
+    flex-direction: column;
+}
+#buttonsubmit {
+    border-radius: 20px;
+    background-color: blue;
+}
+#codearea {
+    width: 100%;
+    height: 80vh;
+    background-color: grey;
+}
+#classname {
+    background-color: grey;
+}
